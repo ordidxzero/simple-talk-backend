@@ -7,6 +7,8 @@ globalRouter.post(routes.register, globalController.register);
 
 globalRouter.post(routes.login, globalController.login);
 
-globalRouter.get(routes.logout, globalController.logout);
+globalRouter.post(routes.logout, globalController.logout);
+
+globalRouter.post(routes.check, globalController.check);
 
 export default globalRouter;

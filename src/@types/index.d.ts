@@ -9,7 +9,7 @@ export type CtxType = ParameterizedContext<KoaStateType, Router.IRouterParamCont
 
 export type NextType = Next;
 
-type TokenType = { _id: string; username: string };
+type TokenType = { _id: string; username: string; avatarUrl: string };
 
 // Global
 

@@ -1,4 +1,7 @@
 import mongoose from 'mongoose';
+import './models/user';
+import './models/room';
+import './models/message';
 
 mongoose
   .connect(process.env.MONGO_URI as string, {
